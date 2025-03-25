@@ -508,7 +508,7 @@ call of `onDragUpdate`, considering the camera zoom.
 ```dart
   @override
   void onDragUpdate(DragUpdateEvent event) {
-    position += event.delta;
+    position += event.localDelta;
   }
 ```
 
